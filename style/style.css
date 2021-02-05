@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Play', sans-serif;
+}
+
+/*@font-face{
+    font-family: play;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    font-size: 1em;
+}*/
+
+/*@font-face {
+    font-family: signature;
+    src: url(../fonts/RougeScript-Regular.ttf);
+}*/
+
+body {
+    /*font-family: "play";*/
+    display: inline-block;
+}
+
+.conteiner {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(2, 88, 101, 0.8);
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hlogo {
+    width: 150px;
+}
+
+.belong {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-image: url(../images/handsup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+nav {}
+
+.square {
+    width: 60px;
+    height: 60px;
+    background-color: violet;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    padding: 15px;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    color: black;
+}
+
+li:hover {
+    color: rgb(2, 88, 101, 0.5);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.pertencerconteiner {
+    margin: auto;
+}
+
+.txttituloinicio h1 {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    text-shadow: 1px 1px gray;
+    letter-spacing: 5px;
+}
+
+.txttituloinicio p {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 1px 1px gray;
+}
+
+input[type="button"] {
+    width: 200px;
+    background: center;
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255, 0.8);
+    font-weight: 900;
+    padding: 10px;
+}
+
+.square {
+    width: 10px;
+    height: 500px;
+    background-color: yellow;
+}
+
+.btposition a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    border: solid 2px white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: auto;
+}
+
+.btposition a:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
+    border: solid 2px rgb(255, 255, 255, 0.8);
+}
+
+.description {
+    width: 100%;
+    background-color: #282824;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.txtdescription {
+    display: inline-block;
+    position: relative;
+    max-width: 49%;
+    min-width: 30%;
+    background-color: #eeeded;
+    font-size: 0.8em;
+    padding: 50px;
+}
+
+.txtdescription h2 {
+    color: rgb(59, 59, 59);
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+
+.txtdescription h3 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 3em;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.pastor {
+    display: inline-block;
+    max-width: 45%;
+    min-width: 30%;
+    height: 200px;
+    float: right;
+    padding: 50px;
+    background-image: url(../images/pastorandfamily.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.espaçamento h2, p {
+    margin-top: 10px;
+}
+
+.newstitle {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(2, 88, 101, 0.8);
+    color: white;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+}
+
+.newstitle h2 {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+}
+
+.iconigreja {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 50px;
+}
