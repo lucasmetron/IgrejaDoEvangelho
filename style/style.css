@@ -5,6 +5,10 @@
     font-family: 'Play', sans-serif;
 }
 
+.green{
+    background-color:  rgb(2, 88, 101, 0.8);
+}
+
 /*@font-face{
     font-family: play;
     src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
@@ -220,3 +224,53 @@ input[type="button"] {
     width: 55px;
     height: 50px;
 }
+
+.ourvalues{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(235, 236, 215);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ourtitle{
+    text-align: center;
+    color: #5D5D5D;
+    margin-bottom: 30px;
+}
+
+.ourtitle h2{
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.ourtitle p{
+    color:rgb(93,93,93, 0.5);
+    font-size: 1em;
+}
+
+.valuesconteiner{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.valuesimg{
+   border: solid 2px black;
+   border-radius: 50%;
+   width: 70px;
+   padding: 20px;
+   text-align: center;
+   display: inline-block;
+   margin: 20px;
+}
+
+.valuesconteiner h3{
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.valuesconteiner p{
+    color: rgb(93,93,93, 0.5);
+}
+
