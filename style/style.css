@@ -26,7 +26,7 @@ body {
 }
 
 .conteiner {
-    width: 80%;
+    width: 100%;
     margin: auto;
     box-sizing: border-box;
 }
@@ -227,7 +227,7 @@ input[type="button"] {
 
 .ourvalues{
     width: 100%;
-    padding: 30px;
+    padding: 80px 50px 80px 50px;
     background-color: rgb(235, 236, 215);
     text-align: center;
     box-sizing: border-box;
@@ -274,3 +274,160 @@ input[type="button"] {
     color: rgb(93,93,93, 0.5);
 }
 
+.titlecollege{
+    width: 100%;
+    background-color: rgb(2, 88, 101, 0.8);
+}
+
+.titleconteudo{
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.titleconteudo h2{
+    display: inline-block;
+    color: white;
+}
+
+.college{
+    width: 100%;
+    background-image: url(../images/holy-bible.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.radiuspastor{
+   display: inline-block;
+    margin: 15px;
+}
+
+.radiuspastor img{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.radiuspastor h4{
+    font-size: 1.5em;
+    margin: 8px;
+    color: rgb(71, 70, 70);;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.radiuspastor h5{
+    font-size: 1em;
+    margin: 8px;
+    color: rgb(71, 70, 70);
+    font-weight: 900;
+    letter-spacing: 0.8px;
+}
+
+
+.collegeconteudo{
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    margin-left: 80px;
+    color: rgb(71, 70, 70);;
+}
+
+.collegeconteudo a{
+    border: solid 1px rgb(71, 70, 70);;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(71, 70, 70);;
+    margin-top: 100px;
+}
+
+.collegeconteudo a:hover{
+    background-color: rgb(71, 70, 70);;
+    color: black;
+    
+}
+
+.matposition{
+    margin-top: 25px;
+}
+
+
+.conteinerfooter{
+    width: 100%;
+    background-color: rgb(2, 88, 101, 0.8);
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+
+.logofooter{
+   display: inline-block;
+}
+
+.logofooter img{
+    width: 200px;
+    
+}
+
+.footercontact{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    margin-left: 15px;
+}
+
+.footercontact p{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.siganos{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px
+   
+}
+
+.siganos h4{
+    margin-bottom: ;
+}
+
+.siganos p{
+    display: inline-block;
+}
+
+
+.teste{
+    display: flex;
+    flex-direction: row; organiza os elementos em linha
+    flex-direction: row-reverse; organiza os elementos em linha só que reverso
+    flex-direction: column; organiza os elementos em coluna
+    flex-direction: column-reverse; organiza os elementos em colunas só que reverso
+
+    
+
+
+}
+
+.teste2{
+    display: flex;
+    flex-wrap: nowrap; padrão, largura do elemento se ajustara;
+    flex-wrap: wrap; Faz com que a largura do elemento seja respeitada e faça a quebra de linha;
+    justify-content: flex-start; define o alinhamento dos flex intes ao longo do eixo principal;
+    justify-content: flex-end; colocara os itens no final do eixo ;
+    justify-content: center; centraliza os itens;
+    justify-content: space-around; respeitará a margem que der aos itens de forma uniforme;
+    justify-content: space-between; desconsidera a margem do primeiro e ultimo intem.
+
+}
