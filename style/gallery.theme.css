@@ -15,11 +15,12 @@
   position: relative;
   width: 100%;
 }
+
 .gallery .item {
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #eeeded
+  background: rgba(58, 99, 105, 0.8);
 }
 .gallery .controls {
   margin-top: 20px;

@@ -9,19 +9,7 @@
     background-color:  rgb(2, 88, 101, 0.8);
 }
 
-/*@font-face{
-    font-family: play;
-    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
-    font-size: 1em;
-}*/
-
-/*@font-face {
-    font-family: signature;
-    src: url(../fonts/RougeScript-Regular.ttf);
-}*/
-
 body {
-    /*font-family: "play";*/
     display: inline-block;
 }
 
@@ -64,8 +52,10 @@ header {
 }
 
 nav {
+   position: relative;
     
 }
+
 
 .menu {
     padding: 15px;
@@ -91,7 +81,7 @@ li {
 
 li:hover {
     color: rgb(2, 88, 101, 0.5);
-    font-weight: 500;
+    font-weight: 900;
     text-decoration: none;
 }
 
@@ -155,14 +145,16 @@ input[type="button"] {
 
 .description {
     width: 100%;
-    background-color: #282824;
+    background-color: #61615f;
     overflow: hidden;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
 
 }
@@ -171,7 +163,6 @@ input[type="button"] {
     display: inline-block;
     position: relative;
     max-width: 49%;
-    min-width: 30%;
     background-color: #eeeded;
     font-size: 0.8em;
     padding: 50px;
@@ -191,8 +182,10 @@ input[type="button"] {
 }
 
 .pastor img {
-    max-width: 450px;
-    min-width: 300px;
+ width: 400px;
+ height: auto;
+ display: inline;
+
 }
 
 .espaçamento h2, p {
@@ -319,7 +312,7 @@ input[type="button"] {
 .radiuspastor h4{
     font-size: 1.5em;
     margin: 8px;
-    color: rgb(71, 70, 70);;
+    color: rgb(71, 70, 70);
     font-weight: 900;
     letter-spacing: 1px;
 }
@@ -391,6 +384,15 @@ input[type="button"] {
     position: relative;
     bottom: 10px;
     margin-left: 15px;
+
+}
+
+.footercontact h4{
+    font-size: 1.5em;
+}
+
+.footercontact img{
+    width: 35px;
 }
 
 .footercontact p{
@@ -407,7 +409,7 @@ input[type="button"] {
 }
 
 .siganos h4{
-    margin-bottom: ;
+    font-size: 1.5em;
 }
 
 .siganos p{
@@ -415,30 +417,90 @@ input[type="button"] {
 }
 
 
+
+
 /*                                     MEDIA QUERY                         */
 
-@media screen and (max-width: 878px){
+@media screen and (max-width: 981px){
+
+    /* Description */
 
     .description {
         width: 100%;
         background-color: #282824;
         overflow: hidden;
-        margin: auto;
         text-align: center;
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        
     
     }
 
+    .txtdescription {
+        flex-wrap: wrap;
+        position: relative;
+        max-width: 49%;
+        background-color: #eeeded;
+        font-size: 0.8em;
+        padding: 50px;
+    }
+
     .pastor img {
+    
        width: 300px;
        height: 200px;
+      
        
     }
 
+    /* COLLEGE */
+    
+    
+    
+    .radiuspastor h4{
+        color: rgb(48, 48, 48);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    }
+    
+    .radiuspastor h5{
+        color: rgb(48, 48, 48);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    }
+    
+    
+    .collegeconteudo{
+        color: rgb(48, 48, 48);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    }
+    
+    .collegeconteudo a{
+        color: rgb(48, 48, 48);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+    }
+    
+    .collegeconteudo a:hover{
+        color: rgb(48, 48, 48);
+        font-weight: 900;
+        text-shadow: 1.5px 1.5px rgb(255, 255, 255);
+        
+    }
 
-}
+    /* FOOTER */
+   
+    
+    .footercontact img{
+        width: 20px;
+    }
+    
+    .footercontact p{
+        font-size: 0.8em;
+    }
+    
+}  
+
 
