@@ -145,7 +145,7 @@ input[type="button"] {
 
 .description {
     width: 100%;
-    background-color: #61615f;
+    background-color: #eeeded;
     overflow: hidden;
     margin: auto;
     text-align: center;
@@ -153,7 +153,7 @@ input[type="button"] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     
     
 
@@ -182,9 +182,8 @@ input[type="button"] {
 }
 
 .pastor img {
- width: 400px;
- height: auto;
- display: inline;
+ width: 401px;
+height: 100%;
 
 }
 
@@ -423,15 +422,24 @@ input[type="button"] {
 
 @media screen and (max-width: 981px){
 
+    /* BELONG*/
+
+    .belong {
+
+        background-position: 50%;
+        background-attachment: scroll;
+        
+    }
+
     /* Description */
 
     .description {
         width: 100%;
-        background-color: #282824;
+        background-color: #eeeded;
         overflow: hidden;
         text-align: center;
         box-sizing: border-box;
-        display: flex;
+        display: block;
         flex-direction: row;
         flex-wrap: nowrap;
     
@@ -440,18 +448,15 @@ input[type="button"] {
     .txtdescription {
         flex-wrap: wrap;
         position: relative;
-        max-width: 49%;
+        width: 300px;
         background-color: #eeeded;
         font-size: 0.8em;
         padding: 50px;
     }
 
     .pastor img {
-    
-       width: 300px;
-       height: 200px;
-      
-       
+        display: none;
+        width: 0px;
     }
 
     /* COLLEGE */
