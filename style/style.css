@@ -340,8 +340,9 @@ height: 100%;
 }
 
 .collegeconteudo a:hover{
-    background-color: rgb(71, 70, 70);;
+    background-color: rgb(167, 161, 161);
     color: black;
+    border: none;
     
 }
 
