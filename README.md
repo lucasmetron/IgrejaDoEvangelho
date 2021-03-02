@@ -13,6 +13,8 @@
 ### Front End para celular
 ![mailchimp](gifs/mobile.gif)
 
+### Acesse o site e veja você mesmo! Link: https://relaxed-nobel-10b31d.netlify.app/
+
 
 ### Gostou do meu projeto? :D Entre em contato comigo! 
 [Linkedin](https://www.linkedin.com/in/lucas-rosa-058683102/) <br/>
