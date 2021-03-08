@@ -1,6 +1,6 @@
 # Site Igreja do Evangelho
 
-### - Este site fez parte de um desafio do curso progamadorBR FullStack que estou fazendo para me especializar em programação WEB. Após terminar os módulos de HTML básico, HTML intermediário, CSS básico e CSS Intermediário, foi lançado o desafio de fazer a primeira venda de um site como freelancer, desta forma, pude colocar todos os conhecimentos adiquiridos nos módulos concluídos. 
+### - Este site fez parte de um desafio do curso progamadorBR FullStack que estou fazendo para me especializar em programação WEB. Após terminar os módulos de HTML básico, HTML intermediário, CSS básico e CSS Intermediário, foi lançado o desafio de fazer a primeira venda de um site como freelancer, desta forma, pude colocar todos os conhecimentos adquiridos nos módulos concluídos. 
 
 ### - Nesta aplicação foram usados as seguintes tecnologias:
 
